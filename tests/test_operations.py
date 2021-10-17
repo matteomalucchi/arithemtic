@@ -14,7 +14,7 @@ class TestArithmeticOperations(unittest.TestCase):
         self.arith = Arithmetic(6,4)
 
     def test_addition(self):
-        self.assertEqual(self.arith.addition(),10)
+        self.assertEqual(self.arith.addition(),11)
 
     def test_subtraction(self):
         self.assertEqual(self.arith.subtraction(),2)
