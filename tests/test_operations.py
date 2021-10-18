@@ -1,12 +1,11 @@
-# python -m unittest tests.test_operations
+## lanica dalla shell aperta in arithmetic: $ python -m unittest tests.test_operations
+
+
 # importing sys
 import sys
 
-# adding Folder_2 to the system path
-#sys.path.insert(0, 'C:/Users/Matteo/arithmetic')
-#per farlo funzionare metti un file __init__.py
 import unittest
-from arithmetic.src.arithmetic import Arithmetic
+from src.arithmetic import Arithmetic
 
 class TestArithmeticOperations(unittest.TestCase):
 
@@ -14,7 +13,7 @@ class TestArithmeticOperations(unittest.TestCase):
         self.arith = Arithmetic(6,4)
 
     def test_addition(self):
-        self.assertEqual(self.arith.addition(),11)
+        self.assertEqual(self.arith.addition(),10)
 
     def test_subtraction(self):
         self.assertEqual(self.arith.subtraction(),2)
