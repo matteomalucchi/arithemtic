@@ -1,4 +1,4 @@
-## lanica dalla shell aperta in arithmetic: $ python -m unittest tests.test_operations
+## lancia dalla shell aperta in arithmetic: $ python -m unittest tests.test_operations
 
 
 # importing sys
